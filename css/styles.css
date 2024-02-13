@@ -1,3 +1,26 @@
+@font-face {
+    font-family: Agencyb;
+    src: url(../fonts/AGENCYB.TTF);
+}
+
+@font-face {
+    font-family: Agencyr;
+    src: url(../fonts/AGENCYR.TTF);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+body{
+    font-family: "Agency FB", sans-serif;
+}
+
 /* ----------------------------------------------------header */
 .header {
     width: 1440px;
@@ -20,7 +43,7 @@ background: rgba(2, 0, 0, 0.5);
 .header-menu-item {
 }
 .header-menu-link {
-font-family: "Agency FB", sans-serif;
+
 font-weight: 700;
 font-size: 16px;
 color: #b7b9a3;
@@ -33,21 +56,21 @@ color: #b7b9a3;
 .hero {
 }
 .hero-subtitle{
-    font-family: "Agency FB", sans-serif;
+   
 font-weight: 700;
 font-size: 96px;
 text-transform: uppercase;
 color: #7bb76c;
 }
 .hero-title {
-    font-family: "Agency FB", sans-serif;
+    
 font-weight: 700;
 font-size: 96px;
 text-transform: uppercase;
 color: #b7b9a3;
 }
 .hero-text {
-    font-family: "Agency FB", sans-serif;
+    
 font-weight: 700;
 font-size: 16px;
 color: #b7b9a3;
@@ -67,7 +90,7 @@ height: 46px;
 background: #868900;
 }
 .hero-span {
-    font-family: "Agency FB", sans-serif;
+    
 font-weight: 400;
 font-size: 15px;
 text-transform: uppercase;
@@ -80,7 +103,7 @@ transform: rotate(90deg);
 .protection {
 }
 .protection-title {
-    font-family: "Agency FB", sans-serif;
+   
 font-weight: 700;
 font-size: 64px;
 text-transform: uppercase;
@@ -99,14 +122,14 @@ width: 273px;
 height: 273px;
 }
 .protection-subtitle {
-    font-family: "Agency FB", sans-serif;
+    
 font-weight: 700;
 font-size: 24px;
 text-transform: uppercase;
 color: #7bb76c;
 }
 .protection-text {
-    font-family: "Agency FB", sans-serif;
+   
 font-weight: 400;
 font-size: 16px;
 color: #b7b9a3;
@@ -118,7 +141,7 @@ stroke-width: 1px;
 stroke: #3d4443;
 }
 .protection-price {
-    font-family: "Agency FB", sans-serif;
+    
 font-weight: 700;
 font-size: 24px;
 text-align: right;
@@ -146,7 +169,7 @@ background: #868900;
 .turn {
 }
 .turn-title {
-    font-family: "Agency FB", sans-serif;
+    
 font-weight: 700;
 font-size: 64px;
 text-transform: uppercase;
@@ -159,13 +182,13 @@ height: 652px;
 .turn-menu-list {
 }
 .turn-menu-item {
-    font-family: "Agency FB", sans-serif;
+    
 font-weight: 700;
 font-size: 18px;
 color: #839a7d;
 }
 .turn-menu-text{
-    font-family: "Agency FB", sans-serif;
+
 font-weight: 400;
 font-size: 24px;
 text-align: center;
@@ -181,7 +204,7 @@ opacity: 0.3;
 .text-military1 {
     width: 710px;
 height: 482px;
-font-family: "Agency FB", sans-serif;
+
 font-weight: 400;
 font-size: 32px;
 text-align: center;
@@ -213,21 +236,21 @@ height: 492px;
  */
 }
 .make-title {
-    font-family: "Agency FB", sans-serif;
+    
 font-weight: 700;
 font-size: 64px;
 text-transform: uppercase;
 color: #b7b9a3;
 }
 .make-subtitle {
-    font-family: "Agency FB", sans-serif;
+    
 font-weight: 700;
 font-size: 32px;
 text-transform: uppercase;
 color: #7bb76c;
 }
 .make-text {
-    font-family: "Agency FB", sans-serif;
+    
 font-weight: 400;
 font-size: 18px;
 color: #b7b9a3;
@@ -237,7 +260,7 @@ color: #b7b9a3;
 .make-item {
 }
 .make-span {
-    font-family: "Agency FB", sans-serif;
+    
 font-weight: 700;
 font-size: 24px;
 text-transform: uppercase;
@@ -266,7 +289,7 @@ height: 39px;
 background: #868900;
 }
 .make-price {
-    font-family: "Agency FB", sans-serif;
+    
 font-weight: 700;
 font-size: 32px;
 text-align: right;
@@ -278,7 +301,7 @@ width: 490px;
 height: 490px;
 }
 .make-text-end {
-    font-family: "Agency FB", sans-serif;
+   
 font-weight: 700;
 font-size: 32px;
 text-transform: uppercase;
@@ -293,7 +316,7 @@ color: #b7b9a3;
 height: 281px;
 }
 .footer-subtitle {
-    font-family: "Agency FB", sans-serif;
+    
 font-weight: 400;
 font-size: 32px;
 text-align: center;
@@ -306,7 +329,7 @@ color: #b7b9a3;
 .footer-item {
     /* width: 276px;
 height: 24px; */
-font-family: "Agency FB", sans-serif;
+
 font-weight: 400;
 font-size: 20px;
 text-align: center;
