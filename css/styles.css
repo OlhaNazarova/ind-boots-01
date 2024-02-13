@@ -1,17 +1,30 @@
 /* ----------------------------------------------------header */
 .header {
+    width: 1440px;
+height: 50px;
+
+backdrop-filter: blur(10px);
+background: rgba(2, 0, 0, 0.5);
 }
+
+
 .header-navigation {
 }
 .header-logo {
 }
 .header-logo-image {
+    fill: #b7b9a3;
 }
 .header-menu-list {
 }
 .header-menu-item {
 }
 .header-menu-link {
+font-family: "Agency FB", sans-serif;
+font-weight: 700;
+font-size: 16px;
+color: #b7b9a3;
+/* color: #fff; при ховер*/
 }
 .header-basket {
 }
@@ -19,35 +32,113 @@
 
 .hero {
 }
+.hero-subtitle{
+    font-family: "Agency FB", sans-serif;
+font-weight: 700;
+font-size: 96px;
+text-transform: uppercase;
+color: #7bb76c;
+}
 .hero-title {
+    font-family: "Agency FB", sans-serif;
+font-weight: 700;
+font-size: 96px;
+text-transform: uppercase;
+color: #b7b9a3;
 }
 .hero-text {
+    font-family: "Agency FB", sans-serif;
+font-weight: 700;
+font-size: 16px;
+color: #b7b9a3;
 }
 .hero-btn {
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 10px;
+
+border-radius: 40px;
+padding: 12px 73px;
+width: 216px;
+height: 46px;
+
+background: #868900;
 }
 .hero-span {
+    font-family: "Agency FB", sans-serif;
+font-weight: 400;
+font-size: 15px;
+text-transform: uppercase;
+color: #b67a35;
+
+transform: rotate(90deg);
 }
 /* ------------------------------------------------protection */
 
 .protection {
 }
 .protection-title {
+    font-family: "Agency FB", sans-serif;
+font-weight: 700;
+font-size: 64px;
+text-transform: uppercase;
+color: #b7b9a3;
 }
 .protection-list {
+
 }
 .protection-item {
+    width: 275px;
+height: 493px;
 }
 .protection-img {
+    border-radius: 20px 20px 0 0;
+width: 273px;
+height: 273px;
 }
 .protection-subtitle {
+    font-family: "Agency FB", sans-serif;
+font-weight: 700;
+font-size: 24px;
+text-transform: uppercase;
+color: #7bb76c;
 }
 .protection-text {
+    font-family: "Agency FB", sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #b7b9a3;
 }
 .protection-eclipce {
+    border-radius: 100%;
+fill: #000;
+stroke-width: 1px;
+stroke: #3d4443;
 }
 .protection-price {
+    font-family: "Agency FB", sans-serif;
+font-weight: 700;
+font-size: 24px;
+text-align: right;
+color: #00b9d2;
+
+font-size: 26px;
 }
 .protection-btn {
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 10px;
+
+border-radius: 20px;
+padding: 10px 75px;
+width: 235px;
+height: 39px;
+
+background: #868900;
 }
 
 /* -------------------------------------------------turn */
@@ -55,59 +146,171 @@
 .turn {
 }
 .turn-title {
+    font-family: "Agency FB", sans-serif;
+font-weight: 700;
+font-size: 64px;
+text-transform: uppercase;
+color: #b7b9a3;
 }
 .turn-img {
+    width: 693px;
+height: 652px;
 }
 .turn-menu-list {
 }
 .turn-menu-item {
+    font-family: "Agency FB", sans-serif;
+font-weight: 700;
+font-size: 18px;
+color: #839a7d;
+}
+.turn-menu-text{
+    font-family: "Agency FB", sans-serif;
+font-weight: 400;
+font-size: 24px;
+text-align: center;
+/* color: #fff; hover? */
+
+opacity: 0.3;
 }
 
 /* ----------------------------------------------text */
 
 .text {
 }
-.text-military {
+.text-military1 {
+    width: 710px;
+height: 482px;
+font-family: "Agency FB", sans-serif;
+font-weight: 400;
+font-size: 32px;
+text-align: center;
+color: #b7b9a3;
+
+font-weight: 700;
+color: #7bb76c;
+
+font-weight: 700;
+color: #7bb76c;
+}
+
+.text-military2{
+    font-weight: 700;
+color: #7bb76c;
+
+}
+.text-military3{
+    
 }
 
 /* -------------------------------------------------make */
 
 .make {
+    /* border: 1px solid #1a2828;
+border-radius: 20px;
+width: 980px;
+height: 492px;
+ */
 }
 .make-title {
+    font-family: "Agency FB", sans-serif;
+font-weight: 700;
+font-size: 64px;
+text-transform: uppercase;
+color: #b7b9a3;
 }
 .make-subtitle {
+    font-family: "Agency FB", sans-serif;
+font-weight: 700;
+font-size: 32px;
+text-transform: uppercase;
+color: #7bb76c;
 }
 .make-text {
+    font-family: "Agency FB", sans-serif;
+font-weight: 400;
+font-size: 18px;
+color: #b7b9a3;
 }
 .make-list {
 }
 .make-item {
 }
 .make-span {
+    font-family: "Agency FB", sans-serif;
+font-weight: 700;
+font-size: 24px;
+text-transform: uppercase;
+color: #b7b9a3;
 }
 .make-size {
+    width: 372px;
+    height: 32px;
 }
 .make-eclipse {
+    border-radius: 100%;
+fill: #000;
+stroke-width: 1px;
+stroke: #3d4443;
 }
 .make-btn {
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 10px;
+border-radius: 20px;
+padding: 10px 75px;
+width: 235px;
+height: 39px;
+background: #868900;
 }
 .make-price {
+    font-family: "Agency FB", sans-serif;
+font-weight: 700;
+font-size: 32px;
+text-align: right;
+color: #00b9d2;
+}
+.make-img{
+    border-radius: 0 20px 20px 0;
+width: 490px;
+height: 490px;
 }
 .make-text-end {
+    font-family: "Agency FB", sans-serif;
+font-weight: 700;
+font-size: 32px;
+text-transform: uppercase;
+text-align: center;
+color: #b7b9a3;
 }
 
 /* ------------------------------------------------footer */
 
 .footer {
+    width: 754px;
+height: 281px;
 }
 .footer-subtitle {
+    font-family: "Agency FB", sans-serif;
+font-weight: 400;
+font-size: 32px;
+text-align: center;
+color: #b7b9a3;
 }
 .footer-adress {
 }
 .footer-list {
 }
 .footer-item {
+    /* width: 276px;
+height: 24px; */
+font-family: "Agency FB", sans-serif;
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #868900;
 }
 .footer-list-network {
 }
