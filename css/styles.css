@@ -23,12 +23,12 @@ body{
 
 /* ----------------------------------------------------header */
 .header {
-    width: 1440px;
+    /* width: 1440px;
 height: 50px;
 
 backdrop-filter: blur(10px);
 background: rgba(2, 0, 0, 0.5);
-}
+} */
 
 
 .header-navigation {
@@ -36,59 +36,92 @@ background: rgba(2, 0, 0, 0.5);
 .header-logo {
 }
 .header-logo-image {
-    fill: #b7b9a3;
+    /* fill: #b7b9a3; */
 }
 .header-menu-list {
 }
 .header-menu-item {
 }
 .header-menu-link {
-
 font-weight: 700;
 font-size: 16px;
 color: #b7b9a3;
 /* color: #fff; при ховер*/
 }
+
+.header-menu-link:hover,
+.header-menu-link:focus{
+    color:#203938;
+}
+
+
 .header-basket {
 }
 /* ------------------------------------------------------hero */
 
 .hero {
 }
+
+
 .hero-subtitle{
-   
+/*    
 font-weight: 700;
 font-size: 96px;
 text-transform: uppercase;
 color: #7bb76c;
-}
-.hero-title {
-    
+} */
+font-family: "Agency FB", sans-serif;
 font-weight: 700;
 font-size: 96px;
 text-transform: uppercase;
-color: #b7b9a3;
+color: var(--color-text-title);
 }
+
+
+.hero-title {
+    /* font-weight: 700;
+font-size: 96px;
+text-transform: uppercase;
+color: #b7b9a3; */
+}
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 96px;
+/* text-transform: uppercase; */
+color: var(--color-text);
+
+
 .hero-text {
     
 font-weight: 700;
 font-size: 16px;
 color: #b7b9a3;
 }
+
+
 .hero-btn {
-    display: flex;
+    /* display: flex;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
-gap: 10px;
+gap: 10px; */
 
-border-radius: 40px;
-padding: 12px 73px;
+
+
+/* border-radius: 40px;
+padding: 12px 73px; */
 width: 216px;
 height: 46px;
 
-background: #868900;
+background: #7d7d02;
 }
+
+.hero-btn:hover,
+.hero-btn:focus {
+color: #69f846;
+background-color: #b42424;
+}
+
 .hero-span {
     
 font-weight: 400;
@@ -98,6 +131,7 @@ color: #b67a35;
 
 transform: rotate(90deg);
 }
+
 /* ------------------------------------------------protection */
 
 .protection {
